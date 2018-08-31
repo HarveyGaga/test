@@ -1,0 +1,5 @@
+= Start
+@ ./a.out:[0x4005e1] + 0xfae730 0x8
+@ /lib/x86_64-linux-gnu/libc.so.6:(clearenv+0x5d)[0x7fc8b9a91e9d] - 0xfae010
+@ /lib/x86_64-linux-gnu/libc.so.6:(tdestroy+0x4cf)[0x7fc8b9b5c91f] - 0xfae2a0
+@ /lib/x86_64-linux-gnu/libc.so.6:[0x7fc8b9bcc23c] - 0xfae2c0

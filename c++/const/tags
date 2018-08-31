@@ -1,0 +1,14 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+B	test.cpp	/^class B$/;"	c	file:
+B::a	test.cpp	/^	int a;$/;"	m	class:B	file:	access:public
+B::foo	test.cpp	/^	void foo(int data) const$/;"	f	class:B	access:public	signature:(int data) const
+B::foo	test.cpp	/^	void foo(int data)$/;"	f	class:B	access:public	signature:(int data)
+a	test.cpp	/^	int a;$/;"	m	class:B	file:	access:public
+foo	test.cpp	/^	void foo(int data) const$/;"	f	class:B	access:public	signature:(int data) const
+foo	test.cpp	/^	void foo(int data)$/;"	f	class:B	access:public	signature:(int data)
+main	test.cpp	/^int main(void)$/;"	f	signature:(void)

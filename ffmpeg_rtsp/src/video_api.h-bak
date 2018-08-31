@@ -1,0 +1,37 @@
+#ifndef _VIDEO_API_H_
+#define _VIDEO_API_H_
+
+#include <vector>
+
+extern "C" {
+#include <libavcodec/avcodec.h>
+#include <libavformat/avformat.h>
+#include <libswscale/swscale.h>
+//#include <libavutil/imgutils.h>
+#include <libavcodec/internal.h>
+#include <time.h>
+}
+
+typedef struct {
+	time_t time_value;
+	std::vector<AVPacket *> packet_video;
+} VIDEOBUF;
+
+/*视频流初始化*/
+int ffmpeg_init(char *rtsppath, AVFormatContext **pFormatCtx, AVCodecContext **pCodecCtx, int *videoStream, struct SwsContext **sws_ctx, AVFrame **pFrameRGB);
+
+/*读取视频流帧*/
+int ffmpeg_read_frame(AVFormatContext *pFormatCtx, AVPacket **tmppacket);
+
+/*解码视频流中读取到的packet*/
+int ffmpeg_decode_video(AVCodecContext *pCodecCtx, struct SwsContext *sws_ctx, AVPacket *packet, int videoStream, AVFrame *pFrameRGB);
+
+/*读取视频流并解码*/
+void* ffmpeg_get_video(void* lpParam);
+
+/*创建读取视频流线程*/
+void create_ffmpeg_thread(pthread_t *thread_id, char *param);
+
+void ffmpeg_all_init();
+
+#endif

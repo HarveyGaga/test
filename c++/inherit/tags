@@ -1,0 +1,21 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Animal	test.cpp	/^class Animal$/;"	c	file:
+Animal::age	test.cpp	/^	int age;$/;"	m	class:Animal	file:	access:private
+Animal::name	test.cpp	/^	char name[4];$/;"	m	class:Animal	file:	access:private
+Animal::who	test.cpp	/^	void who(void) {$/;"	f	class:Animal	access:public	signature:(void)
+Dog	test.cpp	/^class Dog : public Animal$/;"	c	file:	inherits:Animal
+Dog::ch	test.cpp	/^	char ch;$/;"	m	class:Dog	file:	access:public
+Dog::kind	test.cpp	/^	int kind;$/;"	m	class:Dog	file:	access:public
+Dog::who	test.cpp	/^	void who(int a) {$/;"	f	class:Dog	access:public	signature:(int a)
+age	test.cpp	/^	int age;$/;"	m	class:Animal	file:	access:private
+ch	test.cpp	/^	char ch;$/;"	m	class:Dog	file:	access:public
+kind	test.cpp	/^	int kind;$/;"	m	class:Dog	file:	access:public
+main	test.cpp	/^int main(void)$/;"	f	signature:(void)
+name	test.cpp	/^	char name[4];$/;"	m	class:Animal	file:	access:private
+who	test.cpp	/^	void who(int a) {$/;"	f	class:Dog	access:public	signature:(int a)
+who	test.cpp	/^	void who(void) {$/;"	f	class:Animal	access:public	signature:(void)

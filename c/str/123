@@ -1,0 +1,1000 @@
+ 1196  vim /etc/profile
+ 1197  cat /etc/profile
+ 1198  ls
+ 1199  clear
+ 1200  cd 
+ 1201  ls
+ 1202  cd hanwei/
+ 1203  ls
+ 1204  vim jdk_comfig.txt
+ 1205  clear
+ 1206  ls
+ 1207  rm jdk_comfig.txt 
+ 1208  ls
+ 1209  cd workspace/
+ 1210  ls
+ 1211  cd hikvision/
+ 1212  cd ..
+ 1213  ls
+ 1214  cd ..
+ 1215  ls
+ 1216  cd test/
+ 1217  ls
+ 1218  cd ..
+ 1219  ls
+ 1220  cd workspace/
+ 1221  ls
+ 1222  cd bluebrain/
+ 1223  ls
+ 1224  cd src/
+ 1225  ls
+ 1226  cd hikvision/
+ 1227  ls
+ 1228  cd ..
+ 1229  ls
+ 1230  cd ..
+ 1231  ls
+ 1232  cd ..
+ 1233  ls
+ 1234  rm bluebrain/ -rf
+ 1235  ls
+ 1236  clear
+ 1237  git clone git@10.100.19.200:Harvey/bluebrain.git
+ 1238  ls
+ 1239  cd bluebrain/
+ 1240  ls
+ 1241  cd src/
+ 1242  ls
+ 1243  cd hikvision/
+ 1244  ls
+ 1245  rm datapool.*
+ 1246  git status 
+ 1247  git commit -m "delete hikvision datapool"
+ 1248  git push origin master 
+ 1249  git rm datapool.cpp
+ 1250  git rm datapool.h
+ 1251  git status 
+ 1252  git commit -m "delete hikvision datapool"
+ 1253  git push origin master 
+ 1254  clear
+ 1255  ls
+ 1256  cd ..
+ 1257  ls
+ 1258  cd ..
+ 1259  ls
+ 1260  cat Makefile 
+ 1261  clear
+ 1262  ls
+ 1263  la
+ 1264  ls
+ 1265  git status 
+ 1266  ls
+ 1267  cd ..
+ 1268  ls
+ 1269  cd bluebrain/
+ 1270  ls
+ 1271  la
+ 1272  arm-linux-*
+ 1273  cd /opt/
+ 1274  ls
+ 1275  cd sqlite/
+ 1276  ls
+ 1277  cd include/
+ 1278  ls
+ 1279  clear
+ 1280  ls
+ 1281  vim sqlite3
+ 1282  vim sqlite3.h 
+ 1283  cp sqlite3.h ~/hanwei/workspace/bluebrain/src/database/
+ 1284  cd ..
+ 1285  ls
+ 1286  cd EmbedSky/
+ 1287  ls
+ 1288  cd gcc-linaro-5.3-2016.02-x86_64_arm-linux-gnueabihf/
+ 1289  ls
+ 1290  cd bin/
+ 1291  ls
+ 1292  cd //
+ 1293  ls
+ 1294  cd -
+ 1295  ls
+ 1296  cd ..
+ 1297  cd Embedsky/
+ 1298  ls
+ 1299  cd gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/
+ 1300  ls
+ 1301  cd tq-linaro-toolchain/
+ 1302  ls
+ 1303  cd bin/
+ 1304  ls
+ 1305  cd ..
+ 1306  ls
+ 1307  cd /opt/
+ 1308  ls
+ 1309  cd sqlite/
+ 1310  ls
+ 1311  rm * -rf
+ 1312  clear
+ 1313  ls
+ 1314  cd lib/
+ 1315  lks
+ 1316  ls
+ 1317  clear
+ 1318  ls
+ 1319  cd ..
+ 1320  ls
+ 1321  clear
+ 1322  exit
+ 1323  usermod -l harvey vmuser
+ 1324  su
+ 1325  clear
+ 1326  exit
+ 1327  cd hanwei/
+ 1328  ls
+ 1329  cd workspace/
+ 1330  ls
+ 1331  cd hikvision/
+ 1332  ls
+ 1333  ./Debug/hikvision 
+ 1334  ./Debug/hikvision > 123.txt
+ 1335  ./Debug/hikvision
+ 1336  clear
+ 1337  ./Debug/hikvision
+ 1338  clear
+ 1339  ifconfig
+ 1340  ls
+ 1341  cd src/
+ 1342  ls
+ 1343  cd ..
+ 1344  ls
+ 1345  git init 
+ 1346  git remote add origin git@10.100.19.200:Harvey/hikvison.git
+ 1347  ls
+ 1348  git add src/*
+ 1349  ls
+ 1350  git status 
+ 1351  git add .cproject .project .settings/*
+ 1352  git status 
+ 1353  git commit 
+ 1354  git branch 
+ 1355  git push -u origin master 
+ 1356  clear
+ 1357  ls
+ 1358  git branch 
+ 1359  ls
+ 1360  git status 
+ 1361  git log 
+ 1362  clear
+ 1363  ls
+ 1364  cd Release/
+ 1365  ls
+ 1366  make clean
+ 1367  clear
+ 1368  make
+ 1369  make clean
+ 1370  clear
+ 1371  make clean
+ 1372  clear
+ 1373  make
+ 1374  make clean\
+ 1375  make clean
+ 1376  clear
+ 1377  ls
+ 1378  cd ..
+ 1379  ls
+ 1380  cd src/
+ 1381  ls
+ 1382  cd hikvision/
+ 1383  ls
+ 1384  cd ..
+ 1385  ls
+ 1386  mv hikvision/datapool.* ./
+ 1387  ls
+ 1388  cd hikvision/
+ 1389  ls
+ 1390  cd ..
+ 1391  ls
+ 1392  mv datapool.h datapool.h-bak
+ 1393  mv datapool.cpp datapool.cpp-bak
+ 1394  cd ..
+ 1395  ls
+ 1396  cd Release/
+ 1397  ls
+ 1398  make clean
+ 1399  clear
+ 1400  make
+ 1401  make clean
+ 1402  clear
+ 1403  make
+ 1404  cd ..
+ 1405  cd 
+ 1406  cd hanwei/workspace/bluebrain/
+ 1407  git status 
+ 1408  git push origin master 
+ 1409  git log 
+ 1410  clear
+ 1411  git status 
+ 1412  git push -u origin master 
+ 1413  git push -u origin master -f
+ 1414  git push -f -u origin master
+ 1415  git branch hanwei
+ 1416  git branch 
+ 1417  git checkout hanwei 
+ 1418  git branch 
+ 1419  git log
+ 1420  git status 
+ 1421  git push origin hanwei
+ 1422  git branch 
+ 1423  git checkout master 
+ 1424  git status 
+ 1425  git pull 
+ 1426  git st
+ 1427  git status 
+ 1428  git diff
+ 1429  git diff HEAD 
+ 1430  ls
+ 1431  ls src/
+ 1432  git status 
+ 1433  git add src/process.c
+ 1434  git status 
+ 1435  git add src/thread_api.c
+ 1436  git status 
+ 1437  git commit -m "add eclipse project"
+ 1438  git status 
+ 1439  git log
+ 1440  git push origin master 
+ 1441  ls
+ 1442  cd src/
+ 1443  ls
+ 1444  cd ..
+ 1445  ls
+ 1446  git status 
+ 1447  ll
+ 1448  cat .gitignore 
+ 1449  clear
+ 1450  git status 
+ 1451  ls
+ 1452  cd src/
+ 1453  ls
+ 1454  cd ..
+ 1455  ls
+ 1456  ll -a
+ 1457  cd ..
+ 1458  ls
+ 1459  rm bluebrain/ -rf
+ 1460  sudo rm bluebrain/ -rf
+ 1461  ls
+ 1462  git clone git@10.100.19.200:Harvey/bluebrain.git
+ 1463  ls
+ 1464  cd bluebrain/
+ 1465  ls
+ 1466  ll
+ 1467  git status 
+ 1468  git add src/main.c
+ 1469  git status 
+ 1470  git rm src/process.c
+ 1471  git rm src/thread_api.c
+ 1472  git status 
+ 1473  git commit -m "delete some files"
+ 1474  git branch
+ 1475  git push origin master 
+ 1476  ls
+ 1477  clear
+ 1478  cd ..
+ 1479  clear
+ 1480  git clone git@10.100.19.200:Harvey/bluebrain.git
+ 1481  ls
+ 1482  clear
+ 1483  cd bluebrain/
+ 1484  ls
+ 1485  cd Release/
+ 1486  ls
+ 1487  make clean
+ 1488  clear
+ 1489  make
+ 1490  ls
+ 1491  cd src/
+ 1492  ls
+ 1493  cd utility/
+ 1494  ls
+ 1495  rm base64.*
+ 1496  cd ..
+ 1497  make
+ 1498  make clean
+ 1499  clear
+ 1500  make
+ 1501  clear
+ 1502  cd ..
+ 1503  ls
+ 1504  cd Arm/
+ 1505  ls
+ 1506  clear
+ 1507  which arm-linux-gcc
+ 1508  clear
+ 1509  ls
+ 1510  cd ..
+ 1511  git status 
+ 1512  git add .
+ 1513  git status 
+ 1514  git commit -m "modify project setting"
+ 1515  git push origin master 
+ 1516  cd ..
+ 1517  ls
+ 1518  git clone git@10.100.19.200:Harvey/bluebrain.git
+ 1519  ls
+ 1520  cd bluebrain/
+ 1521  ls
+ 1522  clear
+ 1523  la
+ 1524  cat .gitignore 
+ 1525  clear
+ 1526  ls
+ 1527  clear
+ 1528  ls
+ 1529  clear
+ 1530  ls
+ 1531  la
+ 1532  ls
+ 1533  clear
+ 1534  ls
+ 1535  su
+ 1536  clear
+ 1537  usermod -l harvey vmuser
+ 1538  sudo 
+ 1539  sudo -s
+ 1540  clear
+ 1541  sudo passwd root
+ 1542  su
+ 1543  exit
+ 1544  ls
+ 1545  pidof hikvision 
+ 1546  top -p 8234
+ 1547  pidof hikvision 
+ 1548  top -p 14090
+ 1549  cd ..
+ 1550  ls
+ 1551  vim 123.txt 
+ 1552  ls
+ 1553  more 123.txt 
+ 1554  ls
+ 1555  clear
+ 1556  cd ..
+ 1557  ls
+ 1558  cd hikvision/
+ 1559  ls
+ 1560  rm 123.txt 
+ 1561  ls
+ 1562  clear
+ 1563  ls
+ 1564  cd src/
+ 1565  ls
+ 1566  cd ..
+ 1567  ls
+ 1568  clear
+ 1569  cd ..
+ 1570  ls
+ 1571  tar zxvf hikvision.tar.gz hikvision/
+ 1572  tar zcvf hikvision.tar.gz hikvision/
+ 1573  ls
+ 1574  cd hikvision/
+ 1575  ./Debug/hikvision 
+ 1576  ls
+ 1577  cd Debug/
+ 1578  ls
+ 1579  cd ..
+ 1580  ls
+ 1581  ./Debug/hikvision 
+ 1582  gdb ./Debug/hikvision 
+ 1583  y
+ 1584  clear
+ 1585  ls
+ 1586  pidof hikvision 
+ 1587  top -p 15214
+ 1588  sudo vim /etc/rsyslog.d/50-default.conf 
+ 1589  sudo service rsyslog restart
+ 1590  pidof hikvision 
+ 1591  top -p 19225
+ 1592  clear
+ 1593  pidof hikvision 
+ 1594  top -p 21402
+ 1595  clear
+ 1596  ls
+ 1597  cd ..
+ 1598  cd 
+ 1599  ls
+ 1600  cd hanwei/
+ 1601  ls
+ 1602  cd te
+ 1603  cd test/
+ 1604  ls
+ 1605  git clone git@10.100.19.200:Harvey/hikvison.git
+ 1606  ls
+ 1607  cd hikvison/
+ 1608  ls
+ 1609  cd src/
+ 1610  ls
+ 1611  cd ..
+ 1612  ls
+ 1613  clear
+ 1614  ls
+ 1615  cd ..
+ 1616  ls
+ 1617  cd test/
+ 1618  ls
+ 1619  rm hikvison/ -rf
+ 1620  ls
+ 1621  mkdir socket
+ 1622  cd socket/
+ 1623  ls
+ 1624  vim server.c
+ 1625  gcc server.c
+ 1626  vim server.c
+ 1627  gcc server.c
+ 1628  vim server.c
+ 1629  gcc server.c
+ 1630  vim client.c
+ 1631  gcc client.c
+ 1632  ls
+ 1633  gcc client.c -o client
+ 1634  gcc server.c -o server
+ 1635  ls
+ 1636  ./server 
+ 1637  gcc client.c -o client
+ 1638  gcc server.c -o server
+ 1639  ./server 
+ 1640  gcc server.c -o server
+ 1641  ./server 
+ 1642  gcc server.c -o server
+ 1643  ./server 
+ 1644  gcc server.c -o server
+ 1645  ./server 
+ 1646  clear
+ 1647  ls
+ 1648  rm server.c~ 
+ 1649  rm client.c~ 
+ 1650  ls
+ 1651  clear
+ 1652  ls
+ 1653  rm a.out 
+ 1654  ls
+ 1655  clear
+ 1656  ls
+ 1657  cd ..
+ 1658  ls
+ 1659  cd //
+ 1660  cd -
+ 1661  ls
+ 1662  cd ..
+ 1663  ls
+ 1664  cd workspace/
+ 1665  ls
+ 1666  mkdir bluebrain
+ 1667  ls
+ 1668  cd bluebrain/
+ 1669  ls
+ 1670  mkdir include src 
+ 1671  ls
+ 1672  touch Makefile
+ 1673  ls
+ 1674  cp ../../work/CTPT/CTPT/Makefile ./
+ 1675  ls
+ 1676  vim Makefile 
+ 1677  make
+ 1678  clear
+ 1679  ls
+ 1680  clear
+ 1681  git init 
+ 1682  ls
+ 1683  la
+ 1684  git remote add origin git@10.100.19.200:Harvey/bluebrain.git
+ 1685  git add .
+ 1686  git commit 
+ 1687  git push -u origin master 
+ 1688  git status 
+ 1689  ls
+ 1690  git add include
+ 1691  git status 
+ 1692  touch  README.md
+ 1693  ls
+ 1694  cat ../../work/CTPT/CTPT/README.md 
+ 1695  ls
+ 1696  vim README.md 
+ 1697  ls
+ 1698  vim src/
+ 1699  cd src/
+ 1700  ls
+ 1701  vim main.c
+ 1702  ls
+ 1703  cd ..
+ 1704  cd include/
+ 1705  ls
+ 1706  vim main.h
+ 1707  cd ..
+ 1708  git add .
+ 1709  git status 
+ 1710  git commit
+ 1711  git push origin master 
+ 1712  ls
+ 1713  clear
+ 1714  ls
+ 1715  cd src/
+ 1716  ls
+ 1717  cp ../../hikvision/src/hikvision ./
+ 1718  cp ../../hikvision/src/hikvision ./ -rf
+ 1719  ls
+ 1720  cd ..
+ 1721  ls
+ 1722  cp ../hikvision/src/logger.h ./include/
+ 1723  git status 
+ 1724  git add include/logger.h src/hikvision/*
+ 1725  git status 
+ 1726  clear
+ 1727  ls
+ 1728  cd src/
+ 1729  ls
+ 1730  cd hikvision/
+ 1731  ls
+ 1732  cd ..
+ 1733  ls
+ 1734  rm hikvision/ -rf
+ 1735  ls
+ 1736  cp ../../hikvision/src/hikvision ./ -rf
+ 1737  ls
+ 1738  cd hikvision/
+ 1739  ls
+ 1740  cd ..
+ 1741  ls
+ 1742  cd ..
+ 1743  ls
+ 1744  git status 
+ 1745  git add src/hikvision/*
+ 1746  git status 
+ 1747  git commit 
+ 1748  ls
+ 1749  git push origin master 
+ 1750  ls
+ 1751  clear
+ 1752  ls
+ 1753  cd ..
+ 1754  ls
+ 1755  clear
+ 1756  ls
+ 1757  clear
+ 1758  ls
+ 1759  tar zxf hikvision.tar.gz 
+ 1760  ls
+ 1761  cd hikvision/
+ 1762  ls
+ 1763  cd ..
+ 1764  ls
+ 1765  clear
+ 1766  exit
+ 1767  la
+ 1768  ls -al
+ 1769  pwd
+ 1770  clear
+ 1771  pwd
+ 1772  cd 
+ 1773  ls
+ 1774  owd
+ 1775  pwd
+ 1776  cd ..
+ 1777  mv vmuser harvey
+ 1778  sudo mv vmuser harvey
+ 1779  ls
+ 1780  clear
+ 1781  cd ..
+ 1782  cd 
+ 1783  pwd
+ 1784  clear
+ 1785  tail -f 123.txt 
+ 1786  vim 123.txt 
+ 1787  man sscanf 
+ 1788  vim 123.txt 
+ 1789  clear
+ 1790  exit
+ 1791  cd ..
+ 1792  ls
+ 1793  tar zxf hikvision.tar.gz 
+ 1794  ls
+ 1795  cd hikvision/
+ 1796  ls
+ 1797  cd src/
+ 1798  ls
+ 1799  cd ..
+ 1800  la
+ 1801  vim .gitignore 
+ 1802  clear
+ 1803  cd ..
+ 1804  cd -
+ 1805  ls
+ 1806  cd src/
+ 1807  ls
+ 1808  cat main.cpp 
+ 1809  clear
+ 1810  ls
+ 1811  man recv
+ 1812  man strstr 
+ 1813  cd ..
+ 1814  cd work
+ 1815  cd CTPT
+ 1816  ls
+ 1817  cd CTPT/
+ 1818  ls
+ 1819  rm *.jpg
+ 1820  rm *.jpg -rf
+ 1821  ls
+ 1822  clear
+ 1823  ls
+ 1824  make clean
+ 1825  clear
+ 1826  make
+ 1827  clear
+ 1828  make
+ 1829  ls
+ 1830  sudo -s
+ 1831  sudo root
+ 1832  su
+ 1833  exit
+ 1834  ls
+ 1835  ll core 
+ 1836  vim core 
+ 1837  rm core 
+ 1838  ls
+ 1839  vim testplate.cpp 
+ 1840  cd hanwei/
+ 1841  ls
+ 1842  cd work
+ 1843  cd ..
+ 1844  cd workspace/
+ 1845  ls
+ 1846  cd bluebrain/
+ 1847  ls
+ 1848  git status 
+ 1849  git diff .settings/language.settings.xml
+ 1850  git status 
+ 1851  git diff src/utility/base64.h
+ 1852  git diff src/utility/cJSON.h
+ 1853  clear
+ 1854  git status 
+ 1855  git diff src/hikvision/client.cpp
+ 1856  clear
+ 1857  git status 
+ 1858  git add .
+ 1859  git status 
+ 1860  git branch 
+ 1861  git commit
+ 1862  git status 
+ 1863  git log
+ 1864  clear
+ 1865  git push origin master 
+ 1866  cp ../hikvision/src/main.cpp ./
+ 1867  ls
+ 1868  mv main.cpp src/
+ 1869  ls
+ 1870  cd Debug/
+ 1871  ls
+ 1872  ./bluebrain 
+ 1873  clear
+ 1874  ls
+ 1875  make clena
+ 1876  make clean
+ 1877  clear
+ 1878  make
+ 1879  ls
+ 1880  cd ..
+ 1881  ls
+ 1882  cd Debug/
+ 1883  ls
+ 1884  ./bluebrain 
+ 1885  ls
+ 1886  cd ..
+ 1887  ls
+ 1888  ./Debug/bluebrain 
+ 1889  ls
+ 1890  clear
+ 1891  ls
+ 1892  cd src/
+ 1893  ls
+ 1894  cd ..
+ 1895  ls
+ 1896  git status 
+ 1897  git diff src/main.cpp
+ 1898  diff -h
+ 1899  diff --h
+ 1900  diff --help
+ 1901  git diff -y src/main.cpp
+ 1902  git diff -t src/main.cpp
+ 1903  clear
+ 1904  git status 
+ 1905  git diff src/configure.c
+ 1906  git diff src/database/sqlite_api.c
+ 1907  clear
+ 1908  git status 
+ 1909  git diff src/hikvision/client.cpp
+ 1910  git status 
+ 1911  git diff src/message_queue.c
+ 1912  git add .
+ 1913  git status 
+ 1914  git reset src/main.cpp
+ 1915  git status 
+ 1916  git diff src/hikvision/clientManager.cpp
+ 1917  git commit
+ 1918  git push origin master 
+ 1919  clear
+ 1920  ./Debug/bluebrain 
+ 1921  clear
+ 1922  ls
+ 1923  touch 123.txt
+ 1924  ./Debug/bluebrain 
+ 1925  ./Debug/bluebrain > 123.txt 
+ 1926  clear
+ 1927  ./Debug/bluebrain > 123.txt 
+ 1928  ./Debug/bluebrain
+ 1929  ./Debug/bluebrain > 123.txt 
+ 1930  ./Debug/bluebrain
+ 1931  clear
+ 1932  ./Debug/bluebrain
+ 1933  ls
+ 1934  tail -f 123.txt 
+ 1935  vim 123.txt 
+ 1936  clear
+ 1937  ls
+ 1938  touch 123.txt
+ 1939  tail -f 123.txt 
+ 1940  rm 123.txt 
+ 1941  touch 123.txt
+ 1942  tail -f 123.txt 
+ 1943  vim 123.txt 
+ 1944  clear
+ 1945  ls
+ 1946  vim 123.txt 
+ 1947  more 123.txt 
+ 1948  uname -a
+ 1949  clear
+ 1950  which sqlite3 
+ 1951  ls
+ 1952  clear
+ 1953  ls
+ 1954  clear
+ 1955  cd ..
+ 1956  ls
+ 1957  clear
+ 1958  sudo vim /etc/samba/smb.conf
+ 1959  su
+ 1960  exit
+ 1961  ls
+ 1962  cd ..
+ 1963  ls
+ 1964  vim 123.txt 
+ 1965  ls
+ 1966  cd Debug/
+ 1967  ls
+ 1968  vim 234.txt 
+ 1969  touch 123.txt
+ 1970  vim 234.txt 
+ 1971  diff 123.txt 234.txt 
+ 1972  diff --help 
+ 1973  diff 123.txt 234.txt -q
+ 1974  diff 123.txt 234.txt -y
+ 1975  vim 234.txt 
+ 1976  diff 123.txt 234.txt -q
+ 1977  ls
+ 1978  vim 345.txt 
+ 1979  rm 345.txt 
+ 1980  ls
+ 1981  vim 345.txt 
+ 1982  exit
+ 1983  cd hanwei/
+ 1984  ls
+ 1985  cd workspace/
+ 1986  ls
+ 1987  cd bluebrain/
+ 1988  ls
+ 1989  cd Debug/
+ 1990  ls
+ 1991  ./bluebrain 
+ 1992  ./bluebrain > 234.txt
+ 1993  ./bluebrain 2 > 345.txt
+ 1994  ./bluebrain 1 > 345.txt
+ 1995  ./bluebrain 2>345.txt
+ 1996  ./bluebrain
+ 1997  exit
+ 1998  clear
+ 1999  ls
+ 2000  clear
+ 2001  man strncpy
+ 2002  man itoa
+ 2003  man atoi
+ 2004  ls
+ 2005  cd ..
+ 2006  ls
+ 2007  cd ..
+ 2008  ls
+ 2009  cd tools/
+ 2010  ls
+ 2011  cd Frame/
+ 2012  ls
+ 2013  cd tinyhttpd-0.1.0/
+ 2014  ls
+ 2015  vim httpd.c 
+ 2016  cd 
+ 2017  cd /opt/
+ 2018  l;s
+ 2019  ls
+ 2020  cd opencv-arm/
+ 2021  ls
+ 2022  cd lib/
+ 2023  ls
+ 2024  cd ..
+ 2025  ls
+ 2026  cd ..
+ 2027  ls
+ 2028  cd opencv-pc/
+ 2029  ls
+ 2030  cd ..
+ 2031  ls
+ 2032  cd opencv-arm/
+ 2033  ls
+ 2034  cd lib/
+ 2035  ls
+ 2036  cd ..
+ 2037  ls
+ 2038  cd bin/
+ 2039  ls
+ 2040  cd ..
+ 2041  ls
+ 2042  cd include/
+ 2043  ls
+ 2044  cd ..
+ 2045  ls
+ 2046  cd lib/
+ 2047  l;s
+ 2048  ls
+ 2049  man send
+ 2050  man recv
+ 2051  clear
+ 2052  cd 
+ 2053  ls
+ 2054  cd hanwei/
+ 2055  ls
+ 2056  cd test/
+ 2057  git clone git@10.100.19.200:Harvey/bluebrain.git
+ 2058  ls
+ 2059  cd bluebrain/
+ 2060  ls
+ 2061  cd src/
+ 2062  ls
+ 2063  cp database/BB_sqlite.h ../../../workspace/bluebrain/src/database/
+ 2064  cd ..
+ 2065  ls
+ 2066  vim 123.txt
+ 2067  ls
+ 2068  touch 123.txt
+ 2069  sort -t ' ' -k 1 123.txt
+ 2070  ls
+ 2071  cd ..
+ 2072  ls
+ 2073  rm bluebrain/ -rf
+ 2074  l
+ 2075  ls
+ 2076  cd test/
+ 2077  ls
+ 2078  vim test.c 
+ 2079  g++ test.c 
+ 2080  gcc test.c 
+ 2081  vim test.c 
+ 2082  g++ test.c 
+ 2083  vim test.c 
+ 2084  g++ test.c 
+ 2085  ./a.out 
+ 2086  vim test.c 
+ 2087  g++ test.c 
+ 2088  ./a.out 
+ 2089  vim test.c 
+ 2090  g++ test.c 
+ 2091  ./a.out 
+ 2092  vim test.c 
+ 2093  g++ test.c 
+ 2094  ./a.out 
+ 2095  vim test.c 
+ 2096  g++ test.c 
+ 2097  ./a.out 
+ 2098  vim test.c 
+ 2099  ./a.out 
+ 2100  vim test.c 
+ 2101  g++ test.c 
+ 2102  ./a.out 
+ 2103  vim test.c 
+ 2104  g++ test.c 
+ 2105  ./a.out 
+ 2106  ls
+ 2107  vim test.c 
+ 2108  clear
+ 2109  touch 123.txt
+ 2110  sort -t ' ' -k 1 123.txt
+ 2111  man sort
+ 2112  clear
+ 2113  sort -t ' ' -k 1 123.txt
+ 2114  man fwrite
+ 2115  sort -t ' ' -k 1 123.txt
+ 2116  clear
+ 2117  sort -t ' ' -k 1 123.txt
+ 2118  clear
+ 2119  sort -t ' ' -k 1 123.txt
+ 2120  clear
+ 2121  ls
+ 2122  cd ..
+ 2123  ls
+ 2124  cd str/
+ 2125  ls
+ 2126  vim strncpy.c 
+ 2127  gcc strncpy.c 
+ 2128  ./a.out 
+ 2129  vim strncpy.c 
+ 2130  gcc strncpy.c 
+ 2131  ./a.out 
+ 2132  vim strncpy.c 
+ 2133  gcc strncpy.c 
+ 2134  ./a.out 
+ 2135  vim strncpy.c 
+ 2136  gcc strncpy.c 
+ 2137  ./a.out 
+ 2138  vim strncpy.c 
+ 2139  gcc strncpy.c 
+ 2140  ./a.out 
+ 2141  vim strncpy.c 
+ 2142  gcc strncpy.c 
+ 2143  ./a.out 
+ 2144  vim strncpy.c 
+ 2145  gcc strncpy.c 
+ 2146  ./a.out 
+ 2147  vim strncpy.c 
+ 2148  gcc strncpy.c 
+ 2149  ./a.out 
+ 2150  vim strncpy.c 
+ 2151  gcc strncpy.c 
+ 2152  ./a.out 
+ 2153  vim strncpy.c 
+ 2154  gcc strncpy.c 
+ 2155  ./a.out 
+ 2156  vim strncpy.c 
+ 2157  gcc strncpy.c 
+ 2158  ./a.out 
+ 2159  vim strncpy.c 
+ 2160  gcc strncpy.c 
+ 2161  ./a.out 
+ 2162  vim strncpy.c 
+ 2163  gcc strncpy.c 
+ 2164  ./a.out 
+ 2165  vim strncpy.c 
+ 2166  gcc strncpy.c 
+ 2167  ./a.out 
+ 2168  vim strncpy.c 
+ 2169  gcc strncpy.c 
+ 2170  ./a.out 
+ 2171  vim strncpy.c 
+ 2172  gcc strncpy.c 
+ 2173  ./a.out 
+ 2174  vim strncpy.c 
+ 2175  ./a.out 
+ 2176  clear
+ 2177  vim strncpy.c 
+ 2178  gcc strncpy.c 
+ 2179  ./a.out 
+ 2180  vim strncpy.c 
+ 2181  gcc strncpy.c 
+ 2182  ./a.out 
+ 2183  vim strncpy.c 
+ 2184  gcc strncpy.c 
+ 2185  ./a.out 
+ 2186  vim strncpy.c 
+ 2187  gcc strncpy.c 
+ 2188  ./a.out 
+ 2189  vim strncpy.c 
+ 2190  gcc strncpy.c 
+ 2191  ./a.out 
+ 2192  vim strncpy.c 
+ 2193  clear
+ 2194  history |grep stash
+ 2195  history >123

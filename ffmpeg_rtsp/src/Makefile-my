@@ -1,0 +1,39 @@
+##########################################################
+#
+#
+#  copyright zhht.ltd
+#
+#
+##########################################################
+
+CC = g++
+CXX = g++
+LDFLAGS = -g
+CFLAGS = -W -g
+
+INCLUDE += -I /home/nvidia/ffmpeg-2.8.13
+
+LIB += -L/home/nvidia/libconfig/libconfig-1.5/lib/.libs/ 
+LIB += -L/home/nvidia/ffmpeg_gpu 
+#LIB += -L/home/nvidia/ffmpeg-3.3.2/lib
+LIB += -lm -lpthread -lz -lrt -lconfig++ 
+#LIB += -lavutil -lswscale -lswresample -lavcodec  -lavformat 
+LIB += -lavutil -lswscale -lswresample -lavcodec  -lavformat 
+LIB += -lopencv_core -lopencv_gpu -lopencv_highgui -lopencv_imgproc -lopencv_video
+
+TARGET = main 
+OBJ = main.o video_api.o 
+
+
+all: $(OBJ)
+	$(CXX) $(LDFLAGS)  $(OBJ) -o $(TARGET) $(LIB)
+
+%.o: %.c
+	$(CC) -c $(CFLAGS) $< -o $@ $(INCLUDE) 
+
+%.o: %.cpp
+	$(CXX) -c $(CFLAGS) $< -o $@ $(INCLUDE) 
+
+
+clean:
+	rm $(TARGET) $(OBJ) *.cpp~ *.c~ *.h~ *.tmp -rf

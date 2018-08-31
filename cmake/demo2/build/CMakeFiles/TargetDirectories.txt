@@ -1,0 +1,6 @@
+/home/vmuser/hanwei/test/cmake/demo2/build/CMakeFiles/Demo.dir
+/home/vmuser/hanwei/test/cmake/demo2/build/CMakeFiles/rebuild_cache.dir
+/home/vmuser/hanwei/test/cmake/demo2/build/CMakeFiles/edit_cache.dir
+/home/vmuser/hanwei/test/cmake/demo2/build/math/CMakeFiles/MathFunctions.dir
+/home/vmuser/hanwei/test/cmake/demo2/build/math/CMakeFiles/rebuild_cache.dir
+/home/vmuser/hanwei/test/cmake/demo2/build/math/CMakeFiles/edit_cache.dir

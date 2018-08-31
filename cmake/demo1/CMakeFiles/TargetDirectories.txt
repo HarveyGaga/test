@@ -1,0 +1,3 @@
+/home/vmuser/hanwei/test/cmake/demo1/CMakeFiles/demo1.dir
+/home/vmuser/hanwei/test/cmake/demo1/CMakeFiles/rebuild_cache.dir
+/home/vmuser/hanwei/test/cmake/demo1/CMakeFiles/edit_cache.dir
