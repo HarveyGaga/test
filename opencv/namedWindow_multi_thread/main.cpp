@@ -23,6 +23,7 @@ void* thread_handler(void *arg) {
 }
 
 int main(void) {
+	gtk_disable_setlocale();
 	XInitThreads();
 
 	pthread_t thread_id[2];
