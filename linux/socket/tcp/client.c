@@ -49,12 +49,12 @@ int main(int argc, char **argv)
     struct sockaddr_in server_addr;
     bzero(&server_addr,sizeof(server_addr));
     server_addr.sin_family = AF_INET;
-    if(inet_aton("10.100.45.201",&server_addr.sin_addr) == 0) //服务器的IP地址来自程序的参数
+    if(inet_aton(argv[1],&server_addr.sin_addr) == 0) //服务器的IP地址来自程序的参数
     {
         printf("Server IP Address Error!\n");
         exit(1);
     }
-    server_addr.sin_port = htons(HELLO_WORLD_SERVER_PORT);
+    server_addr.sin_port = htons(atoi(argv[2]));
     socklen_t server_addr_length = sizeof(server_addr);
     //向服务器发起连接,连接成功后client_socket代表了客户机和服务器的一个socket连接
     if(connect(client_socket,(struct sockaddr*)&server_addr, server_addr_length) < 0)

@@ -1,19 +1,16 @@
 /*************************************************************************
-	> File Name: main.c
+	> File Name: weak_ptr.cpp
 	> Author: Harvey
 	> Mail: hanwei@zhihuihutong.com 
-	> Created Time: 2018年06月06日 星期三 15时56分20秒
+	> Created Time: 2019年01月23日 星期三 17时41分40秒
  ************************************************************************/
 
-#include<stdio.h>
-#include <time.h>
+#include<iostream>
+#include<memory>
+using namespace std;
 
-int main() {
-	time_t t;
-
-	t = time(NULL);
-	printf("%ld\n", t);
+int main(int argc, char **argv) {
+	std::weak_ptr<int> pi;
 
 	return 0;
 }
-
